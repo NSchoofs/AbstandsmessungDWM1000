@@ -13,10 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ai_swarm">
-      <UniqueIdentifier>{81564f61-34ec-47c4-80c0-88c00e22d85a}</UniqueIdentifier>
-      <Extensions>h;c</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Abstandsmessung DMW1000.ino" />
@@ -25,25 +21,22 @@
     <ClInclude Include="__vm\.Abstandsmessung DMW1000.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\Deck_Header\ai_dwm1000_driver.h">
-      <Filter>ai_swarm</Filter>
+    <ClInclude Include="dwm1000Driver.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\ai_config.h">
-      <Filter>ai_swarm</Filter>
+    <ClInclude Include="ai_datatypes.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\ai_datatypes.h">
-      <Filter>ai_swarm</Filter>
+    <ClInclude Include="ai_config.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\ai_distance.h">
-      <Filter>ai_swarm</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\ai_task.h">
-      <Filter>ai_swarm</Filter>
+    <ClInclude Include="ai_task.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\GitHub\Schwarmdrohnen\src\AI_swarm\src\ai_task.c">
-      <Filter>ai_swarm</Filter>
+    <ClCompile Include="dwm1000Driver.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
